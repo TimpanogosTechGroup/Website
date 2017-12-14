@@ -37,6 +37,8 @@ h6 {
     color: #f8f8f8;
     background: url(../image/tim.png) no-repeat center center;
     background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 2rem;
 }
 
 .intro-message {
@@ -127,4 +129,40 @@ a.email-address {
 
 a.email-address:hover {
     color: #FFFFFF;
+}
+
+.parralax {
+	    /* The image used */
+    background-image: url(../image/tim.png);
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headercenteralized {
+	text-align: center;
+}
+
+.spacer-2 {
+	margin-bottom: 2rem;
+}
+
+.underCon {
+	background-image: url(../image/website_under_construction.png);
+	height: 100%;
+	width: 100%;
+	/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+/*    background-size: cover;*/
+
 }
